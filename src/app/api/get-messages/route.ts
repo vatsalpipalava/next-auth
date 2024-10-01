@@ -30,7 +30,7 @@ export async function GET() {
       { $unwind: "$messages" },
       { $sort: { "messages.createdAt": -1 } },
       { $group: { _id: "$_id", messages: { $push: "$messages" } } },
-    ]);
+    ]);    
 
     if (!user || user.length === 0) {
       return Response.json(
