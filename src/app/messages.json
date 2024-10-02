@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Meeting Reminder",
+    "content": "Don't forget about the meeting at 3 PM today.",
+    "received": "10 minutes ago"
+  },
+  {
+    "title": "System Update",
+    "content": "A new update will be available tomorrow.",
+    "received": "1 hour ago"
+  },
+  {
+    "title": "Project Deadline",
+    "content": "The project deadline is extended by 2 days.",
+    "received": "1 day ago"
+  },
+  {
+    "title": "Team Outing",
+    "content": "The team outing is scheduled for next Friday.",
+    "received": "30 minutes ago"
+  }
+]
