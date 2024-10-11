@@ -89,13 +89,13 @@ export default function Dashboard() {
     [toast]
   );
 
-  useEffect(() => {
-    if (!session || !session.user) return;
+    useEffect(() => {
+      if (!session || !session.user) return;
 
-    fetchMessages();
-    fetchAcceptMessage();
-    setSessionLoading(false);
-  }, [session, setValue, fetchAcceptMessage, fetchMessages]);
+      fetchMessages();
+      fetchAcceptMessage();
+      setSessionLoading(false);
+    }, [session, setValue, fetchAcceptMessage, fetchMessages]);
 
   const handleSwitchChange = async () => {
     try {
